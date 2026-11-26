@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CoM ARG Puzzle 3</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+    </head>
+    <body>
+        <div class="container">
+            <div class="wallpaper-container">
+                <p class="headline">CoM ARG</p>
+                <img src="{{url_for('static', filename='smoon_wallpaper.jpeg')}}" alt="Smoon Wallpaper" class="smoon_wallpaper">
+                <input type="text" class="code" id="puzzle-1-code" placeholder="Enter code...">
+                <p class="hint">PEAKLAND <span style="font-family: monospace;">R</span>EVIVAL DAY (4 letters)<p>
+                <button class="submit" id="submit">SUBMIT</button>
+                <p class="correct" id="correct" style="top: 39%;"></p>
+                <iframe src="https://docs.google.com/document/d/1xxqWd9KFIYDZmdo0jifVqITonLOletY44Cr8y2AHxSE/preview" style="top: 46%;" class="puzzle-1"></iframe>
+            </div>
+        </div>
+        <script src="{{url_for('static', filename='javascript/puzzle_3.js')}}"></script>
+    </body>
+</html>
