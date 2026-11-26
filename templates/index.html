@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CoM ARG</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+    </head>
+    <body>
+        <div class="container">
+            <div class="wallpaper-container">
+                <p class="headline">CoM ARG</p>
+                <img src="{{url_for('static', filename='smoon_wallpaper.jpeg')}}" alt="Smoon Wallpaper" class="smoon_wallpaper">
+                <input type="text" class="code" id="opening-puzzle-code" placeholder="Enter code...">
+                <button class="submit" id="submit">SUBMIT</button>
+                <p class="correct" id="correct"></p>
+                <iframe src="https://docs.google.com/document/d/1QYwF-yoe_fzCwSK_M5jIxrpPOlKPPd-Xi0MeBWACav4/preview?tab=t.0#heading=h.xuigifduk6w3" class="puzzle-1"></iframe>
+            </div>
+        </div>
+        <script src="{{url_for('static', filename='javascript/main.js')}}"></script>
+    </body>
+</html>
