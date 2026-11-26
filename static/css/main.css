@@ -1,0 +1,131 @@
+body {
+    background-color: #000000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    height: 95vh;
+    overflow: hidden;
+    color: #FFFFFF;
+    font-family: 'Courier New';
+}
+
+.wallpaper-container {
+    position: relative;
+    display: inline-block;
+}
+
+.smoon_wallpaper {
+    display: block;
+    width: 110vw;
+    height: auto;
+    object-fit: contain;
+    filter: brightness(50%);
+}
+
+.headline {
+    position: absolute;
+    top: 17%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    z-index: 9999;
+    letter-spacing: 4px;
+}
+
+.code {
+    color: #FFFFFF;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    width: 500px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #9e9e9e;
+    padding: 5px;
+    font-size: 30px;
+    transform: translateX(-50%);
+    display: block;
+    z-index: 1000;
+}
+
+.submit {
+    position: absolute;
+    top: 32%;
+    left: 65.4%;
+    height: 62px;
+    color: #6d6d6d;
+    background-color: transparent;
+    padding: 5px;
+    border: 1px solid #9e9e9e;
+    padding: 5px;
+    font-size: 30px;
+    transform: translateX(-50%);
+    display: block;
+    z-index: 1000;
+}
+
+.hint {
+    color: #ffffff;
+    font-weight: bold;
+    position: absolute;
+    top: 36%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    z-index: 9999;
+    letter-spacing: 4px;
+}
+
+.audio-hint {
+    color: #ffffff;
+    font-weight: bold;
+    position: absolute;
+    height: 40px;
+    top: 38%;
+    left: 43%;
+    text-align: center;
+    font-size: 35px;
+    z-index: 9999;
+    letter-spacing: 4px;
+}
+
+.correct {
+    color: #8b0404;
+    position: absolute;
+    top: 36%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    z-index: 9999;
+    letter-spacing: 4px;
+}
+
+.puzzle-1 {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+    height: 40%;
+    display: block;
+    border: none;
+    z-index: 1000;
+}
+
+.img-clue {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    border: none;
+    z-index: 1000;
+}
